@@ -1,0 +1,48 @@
+{
+  "name": "react-native-paylike",
+  "title": "React Native Paylike",
+  "version": "0.0.1",
+  "description": "A react-native library to accept payments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native",
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-paylike.git",
+    "baseUrl": "https://github.com/github_account/react-native-paylike"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Bogdan Ardelean",
+    "email": "bogdan.ardelean@zvelt.app"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-native": ">=0.60 <0.62"
+  },
+  "dependencies": {
+    "@paylike/processing-errors": "1.0.0",
+    "creditcards": "3.1.0",
+    "react-native-linear-gradient": "2.5.6",
+    "react-native-webview": "9.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5"
+  }
+}
