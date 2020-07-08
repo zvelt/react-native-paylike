@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import {StyleSheet, TouchableOpacity, Platform, Text, TextInput, View, ScrollView, KeyboardAvoidingView, ActivityIndicator} from "react-native";
-import {Dimensions} from "react-native";
+import {StyleSheet, TouchableOpacity, Platform, Text, View, ScrollView, KeyboardAvoidingView, ActivityIndicator} from "react-native";
 import LinearGradient from 'react-native-linear-gradient';
 import CardDetailsCollector from "./CardDetailsCollector";
 import withController, {PaymentControllerState} from "../withController";

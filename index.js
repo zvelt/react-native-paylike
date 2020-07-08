@@ -5,6 +5,7 @@ import {NativePayment, canMakeNativePayments} from "./src/components/native/Nati
 import NativePaymentButton from "./src/components/native/NativePaymentButton";
 import withController from "./src/components/withController";
 import {Errors, ErrorTypes} from "./src/errors";
+import {createDisplayItem} from "./src/utils";
 
 const Paylike = (publicKey) => {
     return new PaylikeLib(new Api(publicKey));
@@ -18,6 +19,7 @@ export {
     canMakeNativePayments,
     withController, // a controller for DIY UI
     ErrorTypes,
-    Errors
+    Errors,
+    createDisplayItem
 };
 

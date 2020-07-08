@@ -10,10 +10,15 @@
 
 import React, {Component} from 'react';
 import {Text, View, TouchableOpacity, SafeAreaView} from 'react-native';
-import {CardDropIn} from 'react-native-paylike';
-import {Paylike} from 'react-native-paylike';
-import {createDisplayItem} from "../src/utils";
-import {NativePayment, NativePaymentButton, canMakeNativePayments} from "react-native-paylike";
+
+import {
+  Paylike,
+  createDisplayItem,
+  CardDropIn,
+  NativePayment,
+  NativePaymentButton,
+  canMakeNativePayments
+} from 'react-native-paylike';
 
 const AppState = {
   SELECT_PAYMENT_METHOD: 'SELECT_PAYMENT_METHOD',
