@@ -18,7 +18,7 @@ const minor = (major, exponent) => Math.round(major * Math.pow(10, exponent));
 
 const major = (minor, exponent) => minor / Math.pow(10, exponent);
 
-export const changeExponent = (minor, source, target) => major(minor(minor, source), target);
+export const changeExponent = (minor, source, target) => minor(major(minor, source), target);
 
 export const toMajor = (minor, iso_4217_code) => {
     const currency = getCurrency(iso_4217_code);

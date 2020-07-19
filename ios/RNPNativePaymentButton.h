@@ -1,12 +1,5 @@
-//
-//  RNPNativePaymentButton.h
-//  RNPaylike
-//
-//  Created by Bogdan Ardelean on 03/06/2020.
-//  Copyright © 2020 Facebook. All rights reserved.
-//
-
-// source: naoufal/react-native-payments
+//   inspired by naoufal
+//   source: naoufal/react-native-payments
 
 #ifndef RNPNativePaymentButton_h
 #define RNPNativePaymentButton_h
